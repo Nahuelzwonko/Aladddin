@@ -16,7 +16,7 @@
 body {
     margin: 0px;
     font-family: "Raleway", Sans-serif;
-    background-color: #ffffff;
+    background-color: #222323;
 }
 
 h1,
@@ -28,7 +28,7 @@ h6 {
     font-weight: 200;
     letter-spacing: 0.4px;
     font-family: "Raleway", Sans-serif;
-    color: #000000;
+    color: #ffffff;
 }
 
 p {
@@ -37,7 +37,7 @@ p {
     font-weight: 300;
     line-height: 28px;
     letter-spacing: 0.2px;
-    color: #000000;
+    color: #ffffff;
 }
 
 a:hover,
@@ -134,15 +134,16 @@ section {
     font-size: 13px;
     font-weight: 400;
     letter-spacing: 2px;
-    color: #222323;
+    color: #ffffff;
     border-bottom: 2px solid;
     border-color: #5a1522;
     margin: 10px 15px;
     padding: 0 0 2px 0;
     text-align: center;
 }
+
 @media (max-width: 764px) {
-    .navbar-default .nav li a{
+    .navbar-default .nav li a {
         border: none;
         text-align: start;
 
@@ -162,7 +163,8 @@ section {
     width: 150px;
     height: 150px;
 }
-@media (max-width:768px){
+
+@media (max-width:768px) {
     .navbar-default .page-scroll img {
         position: absolute;
         top: 0;
@@ -200,12 +202,12 @@ section {
         -moz-transition: all .3s;
         transition: all .3s;
         padding: 0px;
-        
+
     }
 
     .navbar-default .navbar-nav>.active>a {
         border-radius: 3px;
-        
+
     }
 
     .navbar-default.navbar-shrink {
@@ -216,7 +218,7 @@ section {
     .navbar-nav>li>a {
         padding-top: 15px;
         padding-bottom: 4px;
-        
+
     }
 }
 
@@ -225,20 +227,48 @@ section {
 --------------------*/
 
 .section-title {
-    padding-bottom: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
-.section-title h2 {
+.section-title .text-blur-ou {
     font-size: 45px;
     text-transform: uppercase;
+    -webkit-animation: text-blur-out 25s cubic-bezier(0.950, 0.050, 0.795, 0.035) infinite alternate-reverse both;
+    animation: text-blur-out 10s cubic-bezier(0.950, 0.050, 0.795, 0.035) infinite alternate-reverse both;
+}
+
+@-webkit-keyframes text-blur-out {
+    0% {
+        -webkit-filter: blur(0.01);
+        filter: blur(0.01);
+    }
+
+    100% {
+        -webkit-filter: blur(12px) opacity(0%);
+        filter: blur(12px) opacity(0%);
+    }
+}
+
+@keyframes text-blur-out {
+    0% {
+        -webkit-filter: blur(0.01);
+        filter: blur(0.01);
+    }
+
+    100% {
+        -webkit-filter: blur(12px) opacity(0%);
+        filter: blur(12px) opacity(0%);
+    }
 }
 
 .section-title p {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 300;
     line-height: 33px;
     margin: 25px 100px 30px 100px;
 }
+
 
 .mz-module .section-title {
     padding: 40px 0;
@@ -377,7 +407,7 @@ figcaption {
 }
 
 figure.effect-bubba {
-    background: #000;
+    background: #5a1522;
     margin-bottom: 1px;
 }
 

@@ -315,6 +315,9 @@ button {
 
 .logo {
      padding-top: 14px;
+     width: 80px;
+     height: 80px;
+     margin: 0 25px;
 }
 
 

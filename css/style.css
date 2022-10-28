@@ -14,7 +14,7 @@
 --------------------*/
 
 body {
-    margin: 0px;
+    margin: 0;
     font-family: "Raleway", Sans-serif;
     background-color: #222323;
 }
@@ -92,13 +92,14 @@ section {
 /*--------------------
 2. Navigation
 --------------------*/
-
 .navbar-default {
-    background-color: #ffffff;
-    border-color: transparent
+    width: 100%;
+    background-color: #5a152200;
+    border: none;
 }
 
 .navbar-default .navbar-brand {
+    width: 20px;
     color: #fff;
     padding: 5px;
 }
@@ -107,25 +108,26 @@ section {
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-    color: #fec503
+    color: #5a1522;
 }
 
 .navbar-default .navbar-collapse {
-    border-color: rgba(255, 255, 255, .02)
+    border-color: rgba(230, 7, 7, 0.02)
 }
 
 .navbar-default .navbar-toggle {
-    background-color: #fed136;
-    border-color: #fed136
+    
+    background-color: #5a1522;
+    border-color: #fdfdfd
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: rgb(175, 58, 58)
+    background-color: rgb(70, 11, 11)
 }
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-    background-color: #fed136
+    background-color: #5a1522
 }
 
 .navbar-default .nav li a {
@@ -280,6 +282,7 @@ section {
 
 .mz-about-container {
     padding: 0 50px;
+    width: 100%;
 }
 
 .mz-module-about {

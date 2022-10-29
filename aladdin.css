@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+.logo {
+  display: flex;
+  justify-items: center;
+}
+.logo a img {
+  width: 90px;
+  height: 80px;
+  margin: 0 25px;
+}
+
+nav {
+  width: 100%;
+  height: auto;
+  background-color: rgba(165, 157, 157, 0.733);
+}
+.barra {
+  display: flex;
+  justify-content: end;
+  width: 100%;
+  height: auto;
+  padding: 10px;
+}
+.barra ul li {
+  display: inline-block;
+  padding: 20px;
+  color: rgb(0, 0, 0);
+}
+.barra ul :hover {
+    color: rgba(8, 82, 219, 0.493);
+
+}
+.title{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    padding: 5% 5% 5% 5%;
+    color: black;
+}

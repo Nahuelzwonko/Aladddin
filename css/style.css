@@ -88,7 +88,8 @@
     grid-column-gap: 0px;
     grid-row-gap: 0px;
 }
-.parent .par-1 img{
-    width: 500px;
-    height: 400px;
+#map {
+	height: 400px;
+	width: 100%;
 }
+
